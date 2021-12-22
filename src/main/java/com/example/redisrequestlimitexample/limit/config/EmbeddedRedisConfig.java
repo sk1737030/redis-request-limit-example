@@ -1,13 +1,11 @@
 package com.example.redisrequestlimitexample.limit.config;
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
-import org.springframework.beans.factory.annotation.Value;
+
 import org.springframework.context.annotation.Configuration;
-import redis.embedded.RedisServer;
 
 
 @Configuration
 public class EmbeddedRedisConfig {
+/*
 
     private final RedisServer redisServer;
 
@@ -24,5 +22,6 @@ public class EmbeddedRedisConfig {
     public void stopRedis() {
         redisServer.stop();
     }
+*/
 
 }
